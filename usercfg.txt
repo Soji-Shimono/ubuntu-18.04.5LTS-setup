@@ -2,7 +2,6 @@
 # this file. Please refer to the README file for a description of the various
 # configuration files on the boot partition.
 
-
-#AddedForCAN
+#Add for CAN
 dtoverlay=spi-bcm2835
-dtoverlay=mcp2515-can0,oscillator=16000000,interrupt=25
+dtoverlay=mcp2515-can0, oscillator=16000000,interrrupt=25

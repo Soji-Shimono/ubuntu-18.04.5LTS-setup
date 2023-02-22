@@ -1,17 +1,16 @@
-#!/bin/sh
+#!bin/sh
 
 #package update
 sudo apt update
-sudo apt upgreade
-#sudo systemctl didsable ----
+sudo apt upgrade
 
 #network setting
 cd /etc/netplan
-sudo rm  50-cloud-init.yaml
+sudo rm 50-cloud-init.yaml
 sudo wget https://raw.githubusercontent.com/Soji-Shimono/ubuntu-18.04.5LTS-setup/main/50-cloud-init.yaml
 sudo netplan apply
 
-#can setting
+#CAN setting
 cd /boot/firmware
 sudo rm usercfg.txt
 sudo wget https://raw.githubusercontent.com/Soji-Shimono/ubuntu-18.04.5LTS-setup/main/usercfg.txt
