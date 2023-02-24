@@ -14,4 +14,3 @@ network:
           password: 1500966b
 
   version: 2
-  renderer: NetworkManager

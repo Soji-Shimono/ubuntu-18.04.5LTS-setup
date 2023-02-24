@@ -16,5 +16,5 @@ sudo rm usercfg.txt
 sudo wget https://raw.githubusercontent.com/Soji-Shimono/ubuntu-18.04.5LTS-setup/main/usercfg.txt
 
 sudo apt install can-utils
-sudo ip link set can0 type can0 bitrate 1000000
-sudo ip link set can0 up
+#sudo ip link set can0 type can0 bitrate 1000000
+#sudo ip link set can0 up
