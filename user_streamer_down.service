@@ -1,0 +1,11 @@
+[Unit]
+Description = Video stream launcher
+
+[Service]
+User=ubuntu
+Type=simple
+ExecStart=/home/ubuntu/src/startup/streamer_downword.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+[Unit]
+Description= ROS launcher
+
+[Service]
+User=ubuntu
+Type=simple
+ExecStart=/home/ubuntu/src/startup/roslaunch.bash
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
